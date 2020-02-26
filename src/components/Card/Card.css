@@ -1,0 +1,9 @@
+.card {
+  margin: 1rem 0 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.card__body {
+  padding: 1rem 2rem 2rem;
+}

@@ -1,0 +1,29 @@
+.app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.app__navigation {
+  flex: 0 0 256px;
+  padding: 1rem 2rem 2rem;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.app__navigation li {
+  margin-top: 1rem;
+}
+
+.app__body {
+  flex: 1 1 1024px;
+  padding: 1rem 2rem 2rem;
+  background: #f6f7fa;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

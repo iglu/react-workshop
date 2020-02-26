@@ -1,0 +1,21 @@
+.layout {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(384px, 1fr));
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-flow: dense;
+}
+
+.layout > * {
+  margin: 0 !important;
+}
+
+.layout--members {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-flow: dense;
+}

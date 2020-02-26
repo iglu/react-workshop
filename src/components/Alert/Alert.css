@@ -1,0 +1,27 @@
+.alert {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem 2rem 2rem 1rem;
+  overflow: hidden;
+  background: #5d21d2;
+  color: #f6f7fa;
+  /* background: #fff; */
+}
+
+.alert__icon {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 3rem !important;
+}
+
+.alert__message {
+  flex: 1 1 1%;
+}
+
+.alert--warning {
+  background: #cc0000;
+}
+
+.alert--success {
+  background: #29a329;
+}

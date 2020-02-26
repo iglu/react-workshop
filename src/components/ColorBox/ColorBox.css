@@ -1,0 +1,9 @@
+.color-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #14121e;
+  color: #fff;
+  overflow: hidden;
+}

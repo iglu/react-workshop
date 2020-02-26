@@ -1,0 +1,9 @@
+.post-detailed {
+  margin-top: 1rem;
+  background: #fff;
+  max-width: 768px;
+}
+
+.post-detailed__body {
+  padding: 1rem 2rem 2rem;
+}

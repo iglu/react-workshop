@@ -1,0 +1,26 @@
+.text-field {
+  display: flex;
+  margin: 1rem 0 0;
+  border: 1px solid #e1e3e9;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.text-field__input {
+  flex: 1 1 1%;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: none;
+  font: inherit;
+  background: none;
+}
+
+.text-field__icon {
+  padding: 0.75rem 1rem;
+  color: #555f68;
+}
+
+.text-field__icon > * {
+  display: block;
+}

@@ -1,0 +1,66 @@
+.kick-flip {
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px;
+  margin: -0.25rem !important;
+}
+
+.kick-flip__inner {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  bottom: 0.25rem;
+  left: 0.25rem;
+  transform-style: preserve-3d;
+  transition: 1.2s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.kick-flip--back .kick-flip__inner {
+  transform: rotateX(180deg);
+}
+
+.kick-flip__front,
+.kick-flip__back {
+  backface-visibility: hidden;
+}
+
+.kick-flip__front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transform: rotateX(0deg);
+  background: #131219 url(/misc/kick.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.kick-flip__front span {
+  transform: translateZ(10px);
+}
+
+.kick-flip__back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: #131219 url(/misc/flip.jpg) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  color: #fff;
+  font-size: 3rem;
+  transform: rotateX(180deg);
+}

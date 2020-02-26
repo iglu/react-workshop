@@ -1,0 +1,44 @@
+.nav-link-button {
+  display: flex;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: none;
+  color: #555f68;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.32s ease;
+}
+
+.nav-link-button:hover {
+  background: #f6f7fa;
+}
+
+.nav-link-button__icon {
+  padding-right: 1rem;
+  transition: all 0.32s ease;
+}
+
+.nav-link-button__icon > * {
+  display: block;
+}
+
+.nav-link-button__label {
+  flex: 1 1 1%;
+  transition: all 0.32s ease;
+}
+
+.nav-link-button--selected {
+  color: #5d21d2;
+  background: #f6f7fa;
+}
+
+.nav-link-button--primary,
+.nav-link-button--primary:hover {
+  background: #5d21d2;
+  color: #fff;
+}
